@@ -14,6 +14,7 @@
 		6B0B754325E6730D0006667A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0B754225E6730D0006667A /* GameViewController.swift */; };
 		6B0B754625E6730D0006667A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0B754425E6730D0006667A /* Main.storyboard */; };
 		6B0B754825E673110006667A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0B754725E673110006667A /* Assets.xcassets */; };
+		6B0B755125E673650006667A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0B755025E673650006667A /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6B0B754525E6730D0006667A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B0B754725E673110006667A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B0B754925E673110006667A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0B755025E673650006667A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				6B0B754425E6730D0006667A /* Main.storyboard */,
 				6B0B754725E673110006667A /* Assets.xcassets */,
 				6B0B754925E673110006667A /* Info.plist */,
+				6B0B755025E673650006667A /* Launch Screen.storyboard */,
 			);
 			path = ColorsBlind;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 				6B0B754625E6730D0006667A /* Main.storyboard in Resources */,
 				6B0B753D25E6730D0006667A /* GameScene.sks in Resources */,
 				6B0B754825E673110006667A /* Assets.xcassets in Resources */,
+				6B0B755125E673650006667A /* Launch Screen.storyboard in Resources */,
 				6B0B753F25E6730D0006667A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SX6SA6X8B;
 				INFOPLIST_FILE = ColorsBlind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SX6SA6X8B;
 				INFOPLIST_FILE = ColorsBlind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
